@@ -1,27 +1,73 @@
 ## API
-JSON-server url - https://my-json-server.typicode.com/tadite/demo
-
-Api base url: https://my-json-server.typicode.com/tadite/demo
+Api url: https://my-json-server.typicode.com/tadite/demo
 ### resources:
-Items:
-Call: GET /items
-Result: All items
-`{
+#### Items:  
+Запрос: GET /items  
+```json
+[
+    {
+        "id": 1,
+        "author": 1,
+        "name": "Test 1",
+        "desc": "desc 1",
+        "tags": [
+            1
+        ],
+        "downloads": 33,
+        "previews": [
+            3,
+            9
+        ],
+        "type": 1
+    },
+]
+```  
+##### Возможные пути (работают для всех ресурсов):  
+Получить item по id=5: GET /items/5  
+Пагинация: GET /items?_page=1  
+Фильтрация: GET /items?type=1  
+Пагинация+Фильтрация по типу: GET /items?type=1&_page=1
+
+#### Authors:  
+Запрос: GET /authors  
+```json
+[
+  {
     "id": 1,
-    "author": 1,
-    "name": "Test 1",
-    "desc": "desc 1",
-    "tags": [
-      1
-    ],
-    "downloads": 33,
-    "previews": [
-      3,
-      9
-    ],
-    "type": 1
-  }`
+    "username": "admin"
+  },
+]
+```    
 
-## Use your own data
+#### Types:  
+Запрос: GET /types  
+```json
+[
+  {
+    "id": 1,
+    "name": "type1"
+  },
+]
+```  
 
-Fork it and change `db.json` values or create a repo with a `db.json` file.
+#### Tags:  
+Запрос: GET /tags  
+```json
+[
+  {
+    "id": 1,
+    "name": "tag1"
+  },
+]
+```  
+
+#### Previews:  
+Запрос: GET /previews  
+```json
+[
+  {
+    "id": 1,
+    "url": "https://picsum.photos/500/200?image=61"
+  },
+]
+```  
