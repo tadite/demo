@@ -363,15 +363,15 @@
     "types": [
         {
             "id": 1,
-            "username": "type1"
+            "name": "type1"
         },
         {
             "id": 2,
-            "username": "type2"
+            "name": "type2"
         },
         {
             "id": 3,
-            "username": "type3"
+            "name": "type3"
         }
     ],
     "tags": [
