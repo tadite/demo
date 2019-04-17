@@ -29,7 +29,7 @@
 Пример запрос для поиска: /items?q=Test 22
 
 ## API
-Api url: https://my-json-server.typicode.com/tadite/demo
+Api url: https://my-json-server.typicode.com/tadite/test-task
 ### resources:
 #### Items:  
 Запрос: GET /items  
