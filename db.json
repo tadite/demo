@@ -1,14 +1,483 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "items": [
+        {
+            "id": 1,
+            "author": 1,
+            "name": "Test 1",
+            "description": "Description 1",
+            "tags": [
+                5
+            ],
+            "downloads": 33,
+            "previews": [
+                3,
+                9
+            ],
+            "version": "2.4"
+        },
+        {
+            "id": 2,
+            "author": 2,
+            "name": "Test 2",
+            "description": "Description 2",
+            "tags": [
+                5,
+                10
+            ],
+            "downloads": 12,
+            "previews": [
+                3,
+                2
+            ],
+            "version": "9.9"
+        },
+        {
+            "id": 3,
+            "author": 3,
+            "name": "Test 3",
+            "description": "Description 3",
+            "tags": [
+                2,
+                2
+            ],
+            "downloads": 75,
+            "previews": [
+                7,
+                4
+            ],
+            "version": "1.4"
+        },
+        {
+            "id": 4,
+            "author": 1,
+            "name": "Test 4",
+            "description": "Description 4",
+            "tags": [
+                5,
+                6
+            ],
+            "downloads": 44,
+            "previews": [
+                6,
+                2
+            ],
+            "version": "4.5"
+        },
+        {
+            "id": 5,
+            "author": 3,
+            "name": "Test 5",
+            "description": "Description 5",
+            "tags": [
+                5,
+                1
+            ],
+            "downloads": 71,
+            "previews": [
+                5,
+                1
+            ],
+            "version": "7.2"
+        },
+        {
+            "id": 6,
+            "author": 2,
+            "name": "Test 6",
+            "description": "Description 6",
+            "tags": [
+                9,
+                2
+            ],
+            "downloads": 24,
+            "previews": [
+                3,
+                2
+            ],
+            "version": "9.7"
+        },
+        {
+            "id": 7,
+            "author": 1,
+            "name": "Test 7",
+            "description": "Description 7",
+            "tags": [
+                2,
+                6
+            ],
+            "downloads": 94,
+            "previews": [
+                10,
+                6
+            ],
+            "version": "2.5"
+        },
+        {
+            "id": 8,
+            "author": 3,
+            "name": "Test 8",
+            "description": "Description 8",
+            "tags": [
+                10,
+                1
+            ],
+            "downloads": 88,
+            "previews": [
+                3,
+                5
+            ],
+            "version": "4.9"
+        },
+        {
+            "id": 9,
+            "author": 2,
+            "name": "Test 9",
+            "description": "Description 9",
+            "tags": [
+                8,
+                9
+            ],
+            "downloads": 32,
+            "previews": [
+                3,
+                1
+            ],
+            "version": "7.4"
+        },
+        {
+            "id": 10,
+            "author": 1,
+            "name": "Test 10",
+            "description": "Description 10",
+            "tags": [
+                7,
+                4
+            ],
+            "downloads": 87,
+            "previews": [
+                5,
+                2
+            ],
+            "version": "5.6"
+        },
+        {
+            "id": 11,
+            "author": 3,
+            "name": "Test 11",
+            "description": "Description 11",
+            "tags": [
+                2,
+                8
+            ],
+            "downloads": 68,
+            "previews": [
+                10,
+                10
+            ],
+            "version": "4.3"
+        },
+        {
+            "id": 12,
+            "author": 2,
+            "name": "Test 12",
+            "description": "Description 12",
+            "tags": [
+                7,
+                3
+            ],
+            "downloads": 40,
+            "previews": [
+                1,
+                4
+            ],
+            "version": "2.2"
+        },
+        {
+            "id": 13,
+            "author": 1,
+            "name": "Test 13",
+            "description": "Description 13",
+            "tags": [
+                1,
+                1
+            ],
+            "downloads": 98,
+            "previews": [
+                6,
+                6
+            ],
+            "version": "9.6"
+        },
+        {
+            "id": 14,
+            "author": 3,
+            "name": "Test 14",
+            "description": "Description 14",
+            "tags": [
+                2,
+                6
+            ],
+            "downloads": 83,
+            "previews": [
+                6,
+                10
+            ],
+            "version": "8.9"
+        },
+        {
+            "id": 15,
+            "author": 1,
+            "name": "Test 15",
+            "description": "Description 15",
+            "tags": [
+                1,
+                7
+            ],
+            "downloads": 3,
+            "previews": [
+                10,
+                6
+            ],
+            "version": "6.2"
+        },
+        {
+            "id": 16,
+            "author": 2,
+            "name": "Test 16",
+            "description": "Description 16",
+            "tags": [
+                3,
+                6
+            ],
+            "downloads": 27,
+            "previews": [
+                8,
+                5
+            ],
+            "version": "1.6"
+        },
+        {
+            "id": 17,
+            "author": 1,
+            "name": "Test 17",
+            "description": "Description 17",
+            "tags": [
+                9,
+                10
+            ],
+            "downloads": 72,
+            "previews": [
+                3,
+                1
+            ],
+            "version": "6.8"
+        },
+        {
+            "id": 18,
+            "author": 3,
+            "name": "Test 18",
+            "description": "Description 18",
+            "tags": [
+                8,
+                4
+            ],
+            "downloads": 60,
+            "previews": [
+            ],
+            "version": "6.9"
+        },
+        {
+            "id": 19,
+            "author": 3,
+            "name": "Test 19",
+            "description": "Description 19",
+            "tags": [
+                4,
+                9
+            ],
+            "downloads": 58,
+            "previews": [
+                8,
+                1
+            ],
+            "version": "5.3"
+        },
+        {
+            "id": 20,
+            "author": 1,
+            "name": "Test 20",
+            "description": "Description 20",
+            "tags": [
+                2,
+                3
+            ],
+            "downloads": 18,
+            "previews": [
+                6,
+                2
+            ],
+            "version": "6.7"
+        },
+        {
+            "id": 21,
+            "author": 3,
+            "name": "Test 21",
+            "description": "Description 21",
+            "tags": [
+                5,
+                4
+            ],
+            "downloads": 34,
+            "previews": [
+                10,
+                9
+            ],
+            "version": "3.4"
+        },
+        {
+            "id": 22,
+            "author": 1,
+            "name": "Test 22",
+            "description": "Description 22",
+            "tags": [
+                9,
+                5
+            ],
+            "downloads": 20,
+            "previews": [
+                4,
+                4
+            ],
+            "version": "8.4"
+        },
+        {
+            "id": 23,
+            "author": 2,
+            "name": "Test 23",
+            "description": "Description 23",
+            "tags": [
+                6,
+                2
+            ],
+            "downloads": 30,
+            "previews": [
+                9,
+                7
+            ],
+            "version": "4.4"
+        },
+        {
+            "id": 24,
+            "author": 2,
+            "name": "Test 24",
+            "description": "Description 24",
+            "tags": [
+                8,
+                4
+            ],
+            "downloads": 15,
+            "previews": [
+                8,
+                2
+            ],
+            "version": "6.6"
+        }
+    ],
+    "authors": [
+        {
+            "id": 1,
+            "username": "admin"
+        },
+        {
+            "id": 2,
+            "username": "vasya"
+        },
+        {
+            "id": 2,
+            "username": "petya"
+        }
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "username": "tag1"
+        },
+        {
+            "id": 2,
+            "username": "tag2"
+        },
+        {
+            "id": 3,
+            "username": "tag3"
+        },
+        {
+            "id": 4,
+            "username": "tag4"
+        },
+        {
+            "id": 5,
+            "username": "tag5"
+        },
+        {
+            "id": 6,
+            "username": "tag6"
+        },
+        {
+            "id": 7,
+            "username": "tag7"
+        },
+        {
+            "id": 8,
+            "username": "tag8"
+        },
+        {
+            "id": 9,
+            "username": "tag9"
+        },
+        {
+            "id": 10,
+            "username": "tag10"
+        }
+    ],
+    "previews": [
+        {
+            "id": 1,
+            "url": "https://picsum.photos/500/200?image=61"
+        },
+        {
+            "id": 2,
+            "url": "https://picsum.photos/400/200?image=62"
+        },
+        {
+            "id": 3,
+            "url": "https://picsum.photos/300/200?image=63"
+        },
+        {
+            "id": 4,
+            "url": "https://picsum.photos/400/300?image=64"
+        },
+        {
+            "id": 5,
+            "url": "https://picsum.photos/200/500?image=65"
+        },
+        {
+            "id": 6,
+            "url": "https://picsum.photos/500/300?image=66"
+        },
+        {
+            "id": 7,
+            "url": "https://picsum.photos/700/300?image=67"
+        },
+        {
+            "id": 8,
+            "url": "https://picsum.photos/100/100?image=68"
+        },
+        {
+            "id": 9,
+            "url": "https://picsum.photos/400/400?image=69"
+        },
+        {
+            "id": 10,
+            "url": "https://picsum.photos/600/100?image=70"
+        }
+    ]
 }
