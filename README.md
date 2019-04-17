@@ -1,6 +1,26 @@
-## Try it
+## API
+JSON-server url - https://my-json-server.typicode.com/tadite/demo
 
-[https://my-json-server.typicode.com/typicode/demo](https://my-json-server.typicode.com/typicode/demo)
+Api base url: https://my-json-server.typicode.com/tadite/demo
+### resources:
+Items:
+Call: GET /items
+Result: All items
+`{
+    "id": 1,
+    "author": 1,
+    "name": "Test 1",
+    "desc": "desc 1",
+    "tags": [
+      1
+    ],
+    "downloads": 33,
+    "previews": [
+      3,
+      9
+    ],
+    "type": 1
+  }`
 
 ## Use your own data
 
