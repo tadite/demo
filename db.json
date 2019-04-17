@@ -340,23 +340,23 @@
     "tags": [
         {
             "id": 1,
-            "username": "tag1"
+            "name": "tag1"
         },
         {
             "id": 2,
-            "username": "tag2"
+            "name": "tag2"
         },
         {
             "id": 3,
-            "username": "tag3"
+            "name": "tag3"
         },
         {
             "id": 4,
-            "username": "tag4"
+            "name": "tag4"
         },
         {
             "id": 5,
-            "username": "tag5"
+            "name": "tag5"
         }
     ],
     "previews": [
