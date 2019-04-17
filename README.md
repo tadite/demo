@@ -56,7 +56,7 @@ Api url: https://my-json-server.typicode.com/tadite/demo
 Получить item по id=5: GET /items/5  
 Пагинация: GET /items?_page=1  
 Фильтрация: GET /items?type=1  
-Пагинация+Фильтрация по типу: GET /items?type=1&_page=1
+Пагинация+Фильтрация по типу: GET /items?type=1&_page=1  
 Полнотекстовый поиск: GET /items?q=Test 22
 
 #### Authors:  
